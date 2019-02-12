@@ -1,0 +1,148 @@
+*{
+    padding: 0px;
+    margin:0px;
+}
+header{
+    width:100%;
+    height: 569px;
+    background-image: url(../assets/img/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#logo{
+    width: 50%;
+    float: left;
+}
+nav{
+    width: 50%;
+    float: left;
+}
+#top-menu ul{
+list-style-type:none;
+text-align:right;
+}
+#top-menu ul li{
+    float: right;
+    width: 100px;
+    margin-right: 30px;
+    padding-right: 20px;
+    margin-top: 20px;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#top-menu ul li a{
+    text-decoration: none;
+    color: black;
+}
+article h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+}
+#content{
+    background-color: #f7f7f7;
+   margin: 30px 0px;
+    
+}
+article{
+    width: 40%;
+    float: left;
+    padding: 15px;
+    
+}
+article h2{
+    padding-bottom: 20px;
+}
+article p{
+    font-family: Arial;
+    font-size: 18px;
+    line-height:2;
+    margin-right: 50px;
+}
+.img-holder{
+    width: 55%;
+    float: left;
+    
+}
+.img-holder img{
+    height: 334px;
+    width: 771px;
+}
+section#big-buttons{
+    background-color: #86be7d;
+    height: 400px;
+}
+.products{
+    width: 33.33%;
+    float: left;
+    clear: both;
+    text-align: center;
+}
+.contacts{
+    width: 33.33%;
+    float: left;
+    text-align: center;
+}
+.services{
+    width: 33.33%;
+    float: left;
+    text-align: center;
+}
+.holder{
+    position: relative;
+    top: 150px;
+}
+#big-buttons h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 24px;
+    color: #fff;
+    margin-top: 40px;
+}
+footer{
+    height: 400px;
+    background-color: #0a1e08;
+}
+
+.address{
+    width: 30%;
+    float: left;
+    color: #fff;
+    padding-top: 20px;
+    padding-left: 2%;
+}
+.social-media{
+    width: 30%;
+    float: left;
+    color: #fff;
+    padding-top: 20px;
+    padding-left: 2%;
+}
+.loc-map{
+    width: 30%;
+    float: left;
+    color: #fff;
+    padding-top: 20px;
+    padding-left: 2%;
+    
+}
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+#bottom-bar{
+    position: relative;
+    top: 340px;
+    height: 50px;
+    background-color: #999;
+    clear: both;
+}
+#bottom-bar p{
+    text-align: center;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    padding-top: 10px;
+}
